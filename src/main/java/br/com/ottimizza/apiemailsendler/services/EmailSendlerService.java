@@ -40,6 +40,7 @@ public class EmailSendlerService {
 						MimeMessageHelper.MULTIPART_MODE_MIXED_RELATED,
 						StandardCharsets.UTF_8.name());
 		
+		
 		Context context = new Context();
 //		context.setVariables(mail.getModel());
 //		String html = engine.process("email-template", context);
