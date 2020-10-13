@@ -1,0 +1,13 @@
+#server:
+#  port: ${PORT:9092}
+#  servlet:
+#    context-path: /
+
+cloud:
+  aws:
+    region:
+      static: ca-central-1
+    
+    stack:
+      auto: false
+      

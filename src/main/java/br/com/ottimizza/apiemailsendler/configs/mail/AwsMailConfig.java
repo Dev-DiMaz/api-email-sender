@@ -1,4 +1,4 @@
-package br.com.ottimizza.apiemailsendler.config;
+package br.com.ottimizza.apiemailsendler.configs.mail;
 
 import org.springframework.cloud.aws.mail.simplemail.SimpleEmailServiceJavaMailSender;
 import org.springframework.context.annotation.Bean;

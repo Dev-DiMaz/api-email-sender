@@ -41,7 +41,7 @@ public class EmailSendlerService {
 						StandardCharsets.UTF_8.name());
 		
 		Context context = new Context();
-		context.setVariables(mail.getModel());
+//		context.setVariables(mail.getModel());
 //		String html = engine.process("email-template", context);
 		
 		helper.setTo(mail.getTo());

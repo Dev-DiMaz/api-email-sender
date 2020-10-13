@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.ottimizza.apiemailsendler.config.CustomPropertyConfig;
+import br.com.ottimizza.apiemailsendler.configs.mail.CustomPropertyConfig;
 import br.com.ottimizza.apiemailsendler.domain.models.Mail;
 import br.com.ottimizza.apiemailsendler.services.EmailSendlerService;
 
@@ -37,9 +37,9 @@ public class MailController {
 		mail.setFrom(config.emailFrom);
 		mail.setTo("dev.diogo@gmail.com");
 		mail.setSubject("meu email de teste "+System.currentTimeMillis());
-		Map<String, Object> model = new HashMap<String, Object>();
-		model.put("templateVariable", "Email com SES aws");
-		mail.setModel(model);
+//		Map<String, Object> model = new HashMap<String, Object>();
+//		model.put("templateVariable", "Email com SES aws");
+//		mail.setModel(model);
 		return mail;
 	}
 	
