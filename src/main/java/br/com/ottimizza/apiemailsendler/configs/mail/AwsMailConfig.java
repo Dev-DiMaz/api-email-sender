@@ -14,9 +14,9 @@ import com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClientBuilder;
 @Configuration
 public class AwsMailConfig {
 	
-	private CustomPropertyConfig config;
+	private AwsMailPropertyConfig config;
 	
-	public AwsMailConfig(final CustomPropertyConfig config) {
+	public AwsMailConfig(final AwsMailPropertyConfig config) {
 		this.config = config;
 	}
 	

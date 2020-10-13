@@ -10,7 +10,7 @@ import br.com.ottimizza.apiemailsendler.configs.YamlPropertySourceFactory;
 @Component
 @ConfigurationProperties(prefix = "yaml")
 @PropertySource(value = "classpath:aws-config.yml", factory = YamlPropertySourceFactory.class)
-public class CustomPropertyConfig {
+public class AwsMailPropertyConfig {
 	
 	@Value("${aws.ses.mailFrom}")
 	public String emailFrom;
