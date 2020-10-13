@@ -1,4 +1,4 @@
-package br.com.ottimizza.apiemailsendler.domain.models;
+package br.com.ottimizza.apiemailsender.domain.models;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

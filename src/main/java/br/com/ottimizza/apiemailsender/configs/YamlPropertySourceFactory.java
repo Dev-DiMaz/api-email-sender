@@ -1,4 +1,4 @@
-package br.com.ottimizza.apiemailsendler.configs;
+package br.com.ottimizza.apiemailsender.configs;
 
 import java.io.IOException;
 import java.util.Properties;

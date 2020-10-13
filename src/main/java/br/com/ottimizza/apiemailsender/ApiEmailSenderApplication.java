@@ -1,13 +1,13 @@
-package br.com.ottimizza.apiemailsendler;
+package br.com.ottimizza.apiemailsender;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ApiEmailSendlerApplication {
+public class ApiEmailSenderApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ApiEmailSendlerApplication.class, args);
+		SpringApplication.run(ApiEmailSenderApplication.class, args);
 	}
 
 }
