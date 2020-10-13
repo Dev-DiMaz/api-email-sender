@@ -1,4 +1,4 @@
-package br.com.ottimizza.apiemailsendler.controllers;
+package br.com.ottimizza.apiemailsender.controllers;
 
 import javax.mail.MessagingException;
 
@@ -8,9 +8,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.ottimizza.apiemailsendler.domain.models.Mail;
-import br.com.ottimizza.apiemailsendler.domain.responses.SuccessResponse;
-import br.com.ottimizza.apiemailsendler.services.MailService;
+import br.com.ottimizza.apiemailsender.domain.models.Mail;
+import br.com.ottimizza.apiemailsender.domain.responses.SuccessResponse;
+import br.com.ottimizza.apiemailsender.services.MailService;
+
 
 @RestController
 @RequestMapping("/api/v1/emails")

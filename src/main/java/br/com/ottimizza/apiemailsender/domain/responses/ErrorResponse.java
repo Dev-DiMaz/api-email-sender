@@ -1,4 +1,4 @@
-package br.com.ottimizza.apiemailsendler.domain.responses;
+package br.com.ottimizza.apiemailsender.domain.responses;
 
 import java.io.Serializable;
 
@@ -13,18 +13,14 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class SuccessResponse implements Serializable {
+public class ErrorResponse implements Serializable {
 
     private static final long serialVersionUID = 1L;
+    
+    @JsonProperty("error")
+    private String error;
 
-    @JsonProperty("status")
-    private String status;
-
-    @JsonProperty("message")
-    private String message;
-
-    public SuccessResponse(String status) {
-        this.status = status;
-    }
+    @JsonProperty("error_description")
+    private String errorDescription;
 
 }

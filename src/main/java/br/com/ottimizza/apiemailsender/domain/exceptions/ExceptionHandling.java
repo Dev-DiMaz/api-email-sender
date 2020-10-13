@@ -1,4 +1,4 @@
-package br.com.ottimizza.apiemailsendler.domain.exceptions;
+package br.com.ottimizza.apiemailsender.domain.exceptions;
 
 import static org.springframework.http.HttpStatus.BAD_REQUEST;
 import static org.springframework.http.HttpStatus.INTERNAL_SERVER_ERROR;
@@ -12,7 +12,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import br.com.ottimizza.apiemailsendler.domain.responses.ErrorResponse;
+import br.com.ottimizza.apiemailsender.domain.responses.ErrorResponse;
 
 @ControllerAdvice
 public class ExceptionHandling {

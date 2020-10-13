@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com.ottimizza</groupId>
-	<artifactId>api-email-sendler</artifactId>
+	<artifactId>api-email-sender</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>api-email-sendler</name>
 	<description>projeto para usar o AWS SES (simple email service)</description>

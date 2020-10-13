@@ -1,4 +1,4 @@
-package br.com.ottimizza.apiemailsendler.services;
+package br.com.ottimizza.apiemailsender.services;
 
 import java.nio.charset.StandardCharsets;
 
@@ -12,8 +12,8 @@ import org.springframework.stereotype.Service;
 
 import com.amazonaws.services.simpleemail.model.MessageRejectedException;
 
-import br.com.ottimizza.apiemailsendler.configs.mail.AwsMailPropertyConfig;
-import br.com.ottimizza.apiemailsendler.domain.models.Mail;
+import br.com.ottimizza.apiemailsender.configs.mail.AwsMailPropertyConfig;
+import br.com.ottimizza.apiemailsender.domain.models.Mail;
 
 @Service
 public class MailService {
