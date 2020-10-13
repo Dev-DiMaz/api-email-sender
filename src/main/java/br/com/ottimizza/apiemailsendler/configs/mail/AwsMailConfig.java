@@ -1,4 +1,4 @@
-package br.com.ottimizza.apiemailsendler.config;
+package br.com.ottimizza.apiemailsendler.configs.mail;
 
 import org.springframework.cloud.aws.mail.simplemail.SimpleEmailServiceJavaMailSender;
 import org.springframework.context.annotation.Bean;
@@ -14,9 +14,9 @@ import com.amazonaws.services.simpleemail.AmazonSimpleEmailServiceClientBuilder;
 @Configuration
 public class AwsMailConfig {
 	
-	private CustomPropertyConfig config;
+	private AwsMailPropertyConfig config;
 	
-	public AwsMailConfig(final CustomPropertyConfig config) {
+	public AwsMailConfig(final AwsMailPropertyConfig config) {
 		this.config = config;
 	}
 	

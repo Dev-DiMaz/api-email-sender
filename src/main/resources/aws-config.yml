@@ -1,0 +1,8 @@
+
+aws:
+  ses:
+    mailFrom: ${AWS_SES_MAIL_FROM}
+
+    awsAccessKey: ${AWS_SES_ACCESS_KEY}
+    
+    awsSecretKey: ${AWS_SES_SECRET_KEY}
