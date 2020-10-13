@@ -19,11 +19,11 @@ import br.com.ottimizza.apiemailsendler.domain.models.Mail;
 public class EmailSendlerService {
 
 	private JavaMailSender javaMailSender;
-	private SpringTemplateEngine engine;
+//	private SpringTemplateEngine engine;
 	
 	public EmailSendlerService(JavaMailSender javaMailSender, SpringTemplateEngine engine) {
 		this.javaMailSender = javaMailSender;
-		this.engine = engine;
+//		this.engine = engine;
 	}
 	
 	@Async
@@ -42,7 +42,7 @@ public class EmailSendlerService {
 		
 		Context context = new Context();
 		context.setVariables(mail.getModel());
-		String html = engine.process("email-template", context);
+//		String html = engine.process("email-template", context);
 		
 		helper.setTo(mail.getTo());
 //		helper.setText(html, true);
